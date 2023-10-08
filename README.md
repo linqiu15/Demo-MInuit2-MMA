@@ -10,4 +10,4 @@ A simple demo of connecting [a standalone Minuit2](https://github.com/GooFit/Min
 
     4.[全网最细的CMake教程！(强烈建议收藏)](https://zhuanlan.zhihu.com/p/534439206)
 
-    [test](https://zhuanlan.zhihu.com/p/534439206)
+    som eowrk [a standalone Minuit2](https://github.com/GooFit/Minuit2)

@@ -1,0 +1,6 @@
+The total number of function calls during the minimization is:44
+
+  Pos |    Name    |  type   |      Value       |    Error +/-
+    0 |          a |  free   |     -3.045101637 | 0.05940605707
+    1 |          b |  free   |      15.23962451 | 0.4485058953
+    2 |          c |  free   |      101.7254376 |  3.054649981

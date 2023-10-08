@@ -9,3 +9,5 @@ A simple demo of connecting [a standalone Minuit2](https://github.com/GooFit/Min
 ## CMake
 
     4.[全网最细的CMake教程！(强烈建议收藏)](https://zhuanlan.zhihu.com/p/534439206)
+
+    [全网最细的CMake教程！(强烈建议收藏)](https://zhuanlan.zhihu.com/p/534439206)

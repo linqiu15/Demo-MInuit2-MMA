@@ -14,14 +14,20 @@ add_executable(Fit
     )
 
 # adding wstp stuffs
-include_directories(/Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-ARM64/CompilerAdditions)
-link_directories(/Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-ARM64/CompilerAdditions)
+include_directories(/Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-ARM64/CompilerAdditions)  # Mac 
+link_directories(/Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-ARM64/CompilerAdditions) #Mac
+# include_directories(/usr/local/Wolfram/Mathematica/13.1/SystemFiles/Links/WSTP/DeveloperKit/Linux-x86-64/CompilerAdditions)  # Linux
+# link_directories(/usr/local/Wolfram/Mathematica/13.1/SystemFiles/Links/WSTP/DeveloperKit/Linux-x86-64/CompilerAdditions) # Linux
 
 
 
 # Linking with Minuit2::Minuit2 target
 target_link_libraries(Fit PUBLIC Minuit2::Minuit2)
+
 target_link_libraries(Fit PUBLIC
-    /Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-ARM64/CompilerAdditions/libWSTPi4.a
-    "-framework CoreFoundation"
+   /Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-ARM64/CompilerAdditions/libWSTPi4.a
+   "-framework CoreFoundation"
 )
+#target_link_libraries(Fit PUBLIC
+#    /usr/local/Wolfram/Mathematica/13.1/SystemFiles/Links/WSTP/DeveloperKit/Linux-x86-64/CompilerAdditions/libWSTP64i4.a
+#)
